@@ -43,5 +43,21 @@
         </a>
       </p>
     </div>
+
+    <script>
+      // Function to perform the redirect
+      function redirectToNewLocation() {
+        // Replace 'new-url' with the URL you want to redirect to
+        var newURL = "https://port-0-subs-iciy2almrigmyv.sel5.cloudtype.app/";
+
+        // Perform a 301 redirect to the new URL
+        window.location.replace(newURL);
+      }
+
+      // Call the function to initiate the redirect when the page loads
+      window.onload = function () {
+        redirectToNewLocation();
+      };
+    </script>
   </body>
 </html>
